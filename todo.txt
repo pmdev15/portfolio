@@ -1,0 +1,7 @@
+languge:-
+A. Frontend
+	1. Html
+	2. CSS
+	3. javascript (REACT)
+B. Backend
+	1. python (Django)
