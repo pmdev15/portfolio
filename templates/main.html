@@ -14,12 +14,12 @@
     <link rel="shortcut icon" sizes="16x16 24x24 32x32 48x48 64x64" href="https://brennan.io/favicon.ico">
 
     <!-- Styles -->
-    <link rel="stylesheet" href="/assets/normalize.css">
-    <link rel="stylesheet" href="/assets/main.css">
+    <link rel="stylesheet" href="{{url_for('static',filename='css/style.css')}}">
+    <!--link rel="stylesheet" href="/assets/main.css">
     <link rel="stylesheet" href="/assets/solarized.css">
     <link rel="stylesheet" href="/assets/css/fontawesome.min.css">
     <link rel="stylesheet" href="/assets/css/brands.min.css">
-    <link rel="stylesheet" href="/assets/css/solid.min.css">
+    <link rel="stylesheet" href="/assets/css/solid.min.css"-->
 
     <!-- Meta information -->
     <meta name="author" content="Pullak Mohapatra">
@@ -48,7 +48,8 @@
 <body>
 	<h1> Hi my name is pullak </h1>
 	<p> This is my portfolio </p>
-	<p>i like biriyani</p>
+    <img src="{{url_for('static',filename='images/dfvre.png')}}">
+    <script src="{{url_for('static',filename='js/main.js')}}"></script>
 </body>
 
 </html>
